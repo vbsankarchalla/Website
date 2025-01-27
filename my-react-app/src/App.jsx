@@ -1,8 +1,8 @@
-import Counter from "./assets/Counter.jsx";
+import MyComponent from "./assets/MyComponent.jsx";
 
 
 function App() {
-  return(<Counter />);
+  return(<MyComponent />);
 }
 
 export default App
