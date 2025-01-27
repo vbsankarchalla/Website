@@ -1,7 +1,8 @@
-import Button from './assets/Button.jsx';
+import Counter from "./assets/Counter.jsx";
+
 
 function App() {
-  return( <Button />)
+  return(<Counter />);
 }
 
 export default App

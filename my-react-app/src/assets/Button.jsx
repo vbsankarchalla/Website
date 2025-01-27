@@ -1,21 +1,13 @@
 
 
 function Button(){
-  let count = 0;
 
-
-  const handleClick = (name) => {
-    count += 1;
-    if(count <= 3) {
-      console.log(`${name} you clicked me ${count} time's`);
-    } else {
-      console.log(`${name} Stop clicking me!`);
-    }
-  };
-
+  const handleClick = (e) => {
+    e.target.textContent = "OUCH! 🤕";
+  }
 
   return (
-    <button onClick={() => handleClick('Bro')} className="button">
+    <button onClick={(e) => handleClick(e)} className="button">
       Click me 🙂
     </button>
   );
